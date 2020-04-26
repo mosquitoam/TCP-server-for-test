@@ -83,10 +83,7 @@ int main(int argc, char* argv[])
 		send(sClient, out, sizeof(xyz), 0);
 
 		t++;
-	/*	if (t > 100) 
-		{
-			break;
-		}*/
+
 		Sleep(100);
 	}
 
